@@ -123,6 +123,28 @@ header {
     color: var(--white);
 }
 
+.instagram {
+    font-size: 500%; 
+    color: var(--primary);
+    padding: 0px;
+    margin: 0px;
+}
+.shopping{
+    font-size: 500%; 
+    color: #c8a478;
+    padding: 0px;
+    margin: 0px;
+}
+/*
+.instagram {
+    font-size: 8em; 
+    color: var(--primary);
+}
+.shopping{
+    font-size: 8em; 
+    color: #c8a478;
+}
+*/
 @media (width < 900px){
     
     html{
@@ -242,5 +264,18 @@ header {
     .social-media{
         display: flex;
         justify-content: center;
+    }
+    
+    .instagram {
+        font-size: 500%; 
+        color: var(--primary);
+        padding: 0px;
+        margin: 0px;
+    }
+    .shopping{
+        font-size: 500%; 
+        color: #c8a478;
+        padding: 0px;
+        margin: 0px;
     }
 }
