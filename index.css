@@ -10,7 +10,7 @@
     --danger : #c97889;
     --white: #fbf6fa;
     --black: #210d1b;
-
+    --gold : #c8a478;
     --sm: 14px;
     --md: 16px;
     --lg: 18px;
@@ -101,7 +101,7 @@ header {
     border-color: var(--primary);
     border-style: solid;
     padding-left: 5%;
-    color: var(--secondary); 
+    color: var(--primary); 
 }
 
 .input::placeholder {
@@ -117,10 +117,28 @@ header {
     background-color: var(--secondary);
 }
 
+input:focus{
+    outline-color: none;
+    outline-width: 0px;
+    border-color: none;
+    border-width: 4px;
+    border-color: var(--secondary);
+    color: var(--secondary);
+}
+
 
 .input-button {
     background-color: var(--primary);
     color: var(--white);
+}
+
+.input-button:focus{
+    outline-color: none;
+    outline-width: 0px;
+    border-width: 1px;
+    border-color: var(--secondary);
+    color: var(--white);
+    background-color: var(--secondary);
 }
 
 .instagram {
@@ -131,7 +149,7 @@ header {
 }
 .shopping{
     font-size: 500%; 
-    color: #c8a478;
+    color: var(--gold);
     padding: 0px;
     margin: 0px;
 }
@@ -240,7 +258,6 @@ header {
         border-radius: 10vh;
         border-color: var(--primary);
         align-self: center;
-        color: var(--secondary); 
         margin: 30px;
         padding: 0px;
         border-style: solid;
